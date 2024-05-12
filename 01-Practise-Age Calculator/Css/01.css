@@ -1,0 +1,41 @@
+:root{
+    --color1: rgb(32,156,180);
+}
+
+
+/* Day-Month ve Year yazılarının stillendirmesini yaptık */
+.age-calculator .form-label{
+    color: var(--color1);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+
+/* ---years ---months ---days  yazılarının stillendirmesini yaptık */
+.age-calculator .result{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+/*  <div class="display">  div içerisine koyduğumuz için bu block eleman olduğu için tüm satırı kaplar Bunun display ini inline-block yaparak boyutu kadar yer kaplamasını sağladık */
+.age-calculator .result .display{
+    display: inline-block;
+    text-align: left;
+}
+
+
+/* ---years ---months ---days  yazılarının stillendirmesini h2 başlıkları içerisinde yaptık */
+.age-calculator .result h2{
+    font-size: 3rem;
+}
+
+
+
+/* ---  çizgilerinin renlendirmesini span etiketleri içerisinde yaptık */
+.age-calculator .result span{
+    color: var(--color1);
+}
+
+
+
